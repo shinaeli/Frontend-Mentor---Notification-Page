@@ -1,0 +1,143 @@
+body {
+    box-sizing: border-box;
+    background: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(219, 14%, 63%);
+}
+
+.container {
+   width: 80%;
+   margin: 5px auto;
+}
+
+.item-container {
+   width: 80%;
+   margin: 20px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notifier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notifier h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nums {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    background-color: blue;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    border: none;
+    padding: 10px;
+    color: blue;
+    font-size: 15px;
+    background: hsl(210, 60%, 98%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.flex-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo-container {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 15px;
+    position: relative;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+span {
+    font-size: 18px;
+    color: #000;
+}
+
+.keys {
+    color: hsl(219, 14%, 63%);
+}
+
+span:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.private-message {
+    padding: 10px;
+    background-color: hsl(205, 33%, 90%);
+    color: hsl(219, 14%, 63%);
+    border-radius: 5px;
+}
+
+.unread {
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 10px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .notifier h1 {
+        font-size: 20px;
+    }
+
+    .nums {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .photo-container {
+        margin: 15px;
+    }
+    
+    h1 {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+}
